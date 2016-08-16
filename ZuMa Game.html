@@ -100,12 +100,8 @@
                             ball[i].startY = 50;
                         }
                         if(ball[i].num == 450){
-//                            alert("游戏结束");
-                            var over = document.getElementById("#over");
-                            over.style.display = "block"
+                            alert("游戏结束");
                             window.location.reload();
-
-
                         }
 
                         ball[i].x = Math.sin(ball[i].num*hDu)*ball[i].r + ball[i].startX;
